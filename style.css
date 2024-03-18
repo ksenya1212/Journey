@@ -1,0 +1,275 @@
+*{
+margin: 0;
+padding: 0;
+font-family: "Hind", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+.header{
+    height: 79px;
+    width: 100%;
+}
+
+.block1{
+    font-size: 22pt;
+    height: 79px;
+    width: 100%;
+    background-color: #CACACA;
+}
+.text1{
+    color: white;
+    margin-left: 50px;
+    padding: 15px;
+    float: left;
+    justify-content: left;
+    text-decoration: none;
+
+}
+.colortext{
+    color: black;
+}
+.text2{
+    display: flex;
+    color: white;
+    float: right;
+    justify-content: right;
+    margin-left: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+.block2{
+    height: 1008px;
+    width: 100%;
+}
+.background{
+    background-image: url(/img/div.banner.png);
+    height: 1008px;
+    width: 100%;
+    position: relative;
+}
+.img{
+    height: 50px;
+    width: 310;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 700px;
+    justify-content: center;
+}
+
+.img1{
+    height: 30rem;
+    width: 40rem;
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 800px;
+    justify-content: center;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+.image{
+    height: 65px;
+    width: 140px;
+}
+.logo{
+    height: 515px;
+    height: 600px;
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 640px;
+    justify-content: center;
+
+}
+.logo1{
+    height: 515px;
+    width: 700px;
+}
+
+.background2{
+    background-image: url(/img/chapa.jpg);
+    background-size: 100%;
+    height: 1030px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.text{
+    margin-top: -800px;
+    text-align: left;
+    width: 1000px;
+    margin-left: 200px;
+    line-height: 60px;
+    color: black;
+    
+
+}
+.text3{
+    margin-bottom: 40px;
+    font-size: 50pt;
+
+}
+.text4{
+    font-size: 30pt;
+    font-weight: lighter;
+}
+.background3{
+    background-image: url(/img/miu.jpg);
+    background-size: 100%;
+    height: 1030px;
+    width: 100%;
+    margin-top: 240px;
+    background-repeat: no-repeat;
+}
+.text5{
+    margin-top: -800px;
+    text-align: left;
+    width: 1000px;
+    margin-left: 200px;
+    line-height: 60px;
+    color: white;
+
+}
+.txt{
+    margin-bottom: 40px;
+    font-size: 50pt;  
+}
+.txt1{
+    font-size: 30pt;
+    font-weight: lighter;
+}
+.background4{
+    background-image: url(/img/mau.jpg);
+    background-repeat: no-repeat;
+    height: 1030px;
+    width: 100%;
+    margin-top: 460px;
+    background-size: 100%;
+}
+.text6{
+    margin-top: -900px;
+    text-align: left;
+    width: 1000px;
+    margin-left: 200px;
+    line-height: 60px;
+    color: black;
+
+}
+.txt2{
+    margin-bottom: 40px;
+    font-size: 50pt;  
+}
+.txt3{
+    font-size: 30pt;
+    font-weight: 100;
+}
+.background5{
+    background-image: url(/img/Journey2.png);
+    height: 2800px;
+    width: 100%;
+    margin-top: 205px;  
+}
+
+.texta{
+    margin-top: -2500px;
+    text-align: center;
+    color: white;
+    
+}
+.img2{
+    height: 122px;
+    width: 600px;
+}
+.textik{
+    height: 132px;
+    width: 1000px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 470px;
+    font-size: 24pt;
+    line-height: 70px;
+    font-weight: 900;
+}
+.textik1{
+    margin-top: 250px;
+    font-size: 40pt;
+    text-align: left;
+    width: 900px;
+    margin-left: 300px;
+    line-height: 70px;   
+}
+.textik2{
+    font-size: 20pt;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.textik3{
+    font-size: 40pt;
+    text-align: right;
+    margin-right: 300px;
+    margin-top: 200px;
+}
+.textik4{
+    font-size: 20pt;
+    text-align: right;
+    margin-right: 300px;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.textik5{
+    font-size: 40pt;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.textik6{
+    font-size: 20pt;
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.textik7{
+    font-size: 40pt;
+    text-align: right;
+    width: 1000px;
+    margin-left: 750px;
+    margin-top: 200px;
+}
+.textik8{
+    font-size: 20pt;
+    margin-right: 200PX;
+    text-align: right;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.textik9{
+    margin-top: 300px;
+    font-size: 20pt;
+    width: 800px;
+    text-align: center;
+    margin-left: 550px;
+}
+.background6{
+    background-image: url(/img/Footer.png);
+    background-repeat: no-repeat;
+    height: 1060px;
+    width: 100%;
+    margin-top: 240px;
+    background-size: 100%;
+}
+.textk{
+    margin-top: -700px;
+    text-align: center;
+    font-size: 40pt;
+    width: 800px;
+    margin-left: 550px;
+    color: white;
+    font-weight: lighter;
+}
+.image1{
+    margin-top: 70px;
+    justify-content: center;
+    text-align: center;
+}
