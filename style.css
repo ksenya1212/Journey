@@ -256,7 +256,7 @@ font-family: "Hind", sans-serif;
     background-repeat: no-repeat;
     height: 1060px;
     width: 100%;
-    margin-top: 240px;
+    margin-top: 200px;
     background-size: 100%;
 }
 .textk{
@@ -272,4 +272,56 @@ font-family: "Hind", sans-serif;
     margin-top: 70px;
     justify-content: center;
     text-align: center;
+    margin-right: 130px;
+}
+
+.a1{
+    border-bottom: 3px solid white;
+    text-decoration: none;
+    background-color: #57D0F9;
+    margin-top: 20px;
+    border-top: 3px solid #57D0F9;
+    border-left: 3px solid #57D0F9;
+    border-right: 3px solid #57D0F9;
+    width: 1000px;
+    height: 50px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+.pole li{
+    list-style-type: none;
+}
+.a2{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    height: 25px;
+    width: 25px;
+}
+.pole p{
+    margin-left: 450px ;
+    margin-top: -30px;
+    font-size: 25px;
+    color: white;
+}
+.pole button{
+    margin-left: 850px;
+    margin-top: 40px;
+    height: 60px;
+    width: 250px;
+    color: white;
+    font-size: 30px;
+    border: 3px solid white;
+    background-color: #57D0F9;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.pole button:hover{
+    transform: scale(1);
+    background-color: rgb(39, 169, 192);
+    transition: 0.5s;
+}
+.pole button:active{
+    transform: scale(0.8);
+    transition: 0.1s;
 }
