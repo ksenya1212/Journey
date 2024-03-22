@@ -15,7 +15,7 @@
 			<a class="text2" href="">Life At TGC</a>
 			<a class="text2" href="">News</a>
 			<a class="text2" href="">Careers</a>
-			<a class="text2" href="">Connect</a>
+			<a href="#" class="open-popup">Login</a>
 		</div>
 	</header>
 	<section>
@@ -106,5 +106,31 @@
 			</div>
 		</div>
 	</footer>
+	<div class="popup__bg"> 
+		<form class="popup">
+			<img src="images/close.svg" class="close-popup">
+			<label>
+				<input type="text" name="name">
+				<div class="label__text">
+					Name
+				</div>
+			</label>
+			<label>
+				<input type="tel" name="tel">
+				<div class="label__text">
+					Phone
+				</div>
+			</label>
+			<label>
+				<textarea name="message"></textarea>
+				<div class="label__text">
+					Message
+				</div>
+			</label>
+			<button type="submit">Send</button>
+		</form>
+	</div> 
+	
+	<script src="fdf.js"></script>
 </body>
 </html>
